@@ -17,7 +17,7 @@ import 'package:intl/intl.dart';
 // CONFIG
 // ============================================================================
 
-String firebaseUrl = "https://coolday-dispatch-default-rtdb.firebaseio.com";
+String firebaseUrl = "https://moha-cbdcc-default-rtdb.firebaseio.com";
 
 const String kRoleAdmin = 'admin';
 const String kRoleSales = 'sales';
