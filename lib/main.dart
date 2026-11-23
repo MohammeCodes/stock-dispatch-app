@@ -3,6 +3,9 @@
 //
 // pubspec.yaml dependencies:
 //   http: ^1.2.0
+// Example inside the AppBar:
+title: Text(isAm ? 'የ Cool Day መጋዘን ትዕዛዝ' : 'Cool Day Store Order'),
+
 //   intl: ^0.19.0
 
 import 'dart:async';
@@ -51,7 +54,7 @@ const Map<String, String> _valKeys = {
 
 const Map<String, Map<String, String>> _tr = {
   'en': {
-    'app_title': 'Cool Day Dispatch',
+    'app_title': 'Cool-Day warehouse order ',
     'sign_in': 'Sign In',
     'select_role': 'Select your role',
     'admin': 'Admin',
@@ -160,7 +163,7 @@ const Map<String, Map<String, String>> _tr = {
     'units_left': 'Units in stock',
   },
   'am': {
-    'app_title': 'ኩል ዴይ ዲስፓች',
+    'app_title': 'ኩልዴይ የመጋዘን ትዕዛዝ',
     'sign_in': 'ግባ',
     'select_role': 'ሚናዎን ይምረጡ',
     'admin': 'አስተዳዳሪ',
