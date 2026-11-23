@@ -1,6 +1,6 @@
       - name: Scaffold and Build Flutter APK
         run: |
-          flutter create --org com.coolday --project-name stock_dispatch_app app_scaffold
+          flutter create --org com.coolday --project-name Coolday warehouse order app_scaffold
           cp lib/main.dart app_scaffold/lib/main.dart
           cd app_scaffold
           sed -i '/<application/i <uses-permission android:name="android.permission.INTERNET"/>' android/app/src/main/AndroidManifest.xml
